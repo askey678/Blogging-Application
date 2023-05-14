@@ -1,0 +1,36 @@
+User wants a blogging application where he/she can write blogs and articles
+and can also comment on the blogs/articles
+
+Requirements:
+1. User should create, update, delete and list posts
+2. User should add, update, delete comments on posts
+3. Categorize the posts according to the type of post
+4. New user should be able to register on our Application
+5. Registered user should able to login to our Application
+6. Post can be posted with a picture too. (single picture)
+
+Technical Requirements:
+1. Proper API's for Login, Register, Post, Comment
+2. Posts API includes Pagination and Sorting
+3. Proper user input validation handling
+4. Proper exception handling
+5. Role-based-authentication/Role-based-security with api's
+6. JWT based authentication
+7. Deploy the backend application on any cloud platform
+
+Technologies and Tools used:
+1. Framework: Spring Boot Java Framework
+>Java 8
+>Maven
+>STS 3.9.18 (IDE)
+>Apache Tomcat (Embedded Server in Spring Boot)
+>Spring core, Spring security(Jwt), Spring data JPA(Hibernate), etc
+2. MySQL Database
+3. Swagger (Api testing and documentation)
+4. AWS EC2 (deployment)
+
+Resources for Blogging Application
+1. User
+2. Category
+3. Post
+4. Comments
