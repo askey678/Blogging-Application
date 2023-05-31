@@ -11,12 +11,15 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class CategoryDto {
+
 	private Long id;
+
 	@NotEmpty
-	@Size(min=4,max=30)
+	@Size(min = 4, max = 30)
 	private String categoryTitle;
+
 	@NotEmpty
-	@Size(min=20, max=250)
+	@Size(min = 20, max = 250)
 	private String categoryDescription;
 
 }

@@ -1,7 +1,9 @@
 package com.app.payloads;
 
-import com.app.pojos.Category;
-import com.app.pojos.User;
+import java.util.HashSet;
+import java.util.Set;
+
+import com.app.pojos.Comment;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -22,8 +24,10 @@ public class PostDto {
 
 	private String addedDate;
 
-	private User user;
+	private UserDto userDto;
 
-	private Category category;
+	private CategoryDto categoryDto;
+
+	private Set<CommentDto> comments = new HashSet<CommentDto>();
 
 }

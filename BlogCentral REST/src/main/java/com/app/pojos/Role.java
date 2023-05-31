@@ -1,5 +1,16 @@
 package com.app.pojos;
 
-public class Role {
+import javax.persistence.Entity;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
+@Entity
+public class Role extends BaseEntity {
+
+	private String roleName;
 
 }
